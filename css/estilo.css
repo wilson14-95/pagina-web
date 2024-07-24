@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+header .logo {
+    width: 150px; 
+    height: 200px;    
+    border-radius: 50%;
+    object-fit: cover;
+}
+header.h1 {
+    font-size: 1em; 
+    margin: 2;
+    line-height: 1.1; 
+}
+    
+header.p {
+    font-size: 1.8rem; 
+    margin: 0;
+    line-height: 1.6; 
+} 
+
+body {
+    background-color: #dde2d8;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgb(8, 8, 8);
+}
+*{
+    margin: 1px; 
+    padding: 1px; 
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    align-items: flex-end;
+    background-color: #c29536; /* Color de fondo del cuadro */
+    padding: 50px; /* Espaciado interior del cuadro */
+    font-size: 8rem;
+}
+
+.logo-container {
+    flex: 1. 1. 250px;
+    margin-right: 400px;
+}
+
+.name-div {
+    flex: 5;
+}
+
+.name-div h1 {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.name-div p {
+    font-size: 1.8rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.about-contact {
+    background-color: #e79c10; /* Color de fondo del contenido dentro del cuadro */
+    padding: 100px; /* Espaciado interior del contenido */
+}
+main {
+    display: flex;
+    align-items: flex-start;
+}
+
+aside {
+    flex: 1 1 800; /* Tamaño de la columna para la información lateral */
+    margin-right: 800px;
+}
+main {
+    display: flex;
+    flex-direction: column; /* Cambia el diseño a una columna */
+    align-items: flex-end; /* Centra el contenido horizontalmente */
+}
+section {
+  flex: 2; /* Tamaño de la columna para el contenido principal */
+  max-width: 5px;
+  position: absolute; /* Establece el contenido como posición absoluta */
+    top: 400px; /* Ajusta la distancia vertical desde la parte superior */
+  left: 50%; /* Centra el contenido horizontalmente */
+  transform: translateX(-40%); /* Centra el contenido exactamente en el centro */
+  }
+
+section h2 {
+    margin-top: 0;
+    font-size: 2rem; /* Ajusta el tamaño del título de las secciones según tus preferencias */
+}
+
+section p, section ul {
+    margin-bottom: 1rem;
+}
+
+section ul {
+    padding-left: 30px;
+}
+
+section article {
+    margin-bottom: content;
+}
